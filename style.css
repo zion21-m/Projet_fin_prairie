@@ -20,11 +20,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 130vh;
+    height: auto;
     width: 100vw;
-    margin-bottom: 0px;
-    border: 1px solid black;
-    background-color: #d92950;
+    /* margin-bottom: 0px; */
+    /* border: 1px solid black; */
+    /* background-color: #d92950; */
     /* background-color: #da4550; */
     
 }
@@ -33,31 +33,29 @@ header {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
-    
-    height: 13%;
+    height: auto;
     width: 100vw;
     background-color: #d92950;
     position: fixed;
     z-index: 1;
+    margin: 0px;
+    padding: 0px;
     /* border: solid black 1px; */
 }
 .logokda img{
    width: 100px;
    margin-left: 10px;
-   
-   
 }
 .logokda {
     display: flex;
     justify-content: flex-start;
     margin-left: 25px;
     margin-top: 0;
-    height: 9.16vh;
+    height: auto;
     width: 30%;
     padding-top: 12px;
     padding-left: 1px;
-    
-    
+    margin-bottom: 12px;
 }
 nav { 
     /* background-color: blue; */
@@ -98,7 +96,7 @@ a:hover {
     border-bottom: solid rgb(255, 4, 107) 2px;
 }
 .contenair12 {
-    height: 87%;
+    
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -106,6 +104,9 @@ a:hover {
     /* border: solid black 1px; */
     background-image: url(images/hero-background.jpg);
     background-size: cover;
+    height: auto;
+
+    
 }
 .contenair121 {
     text-align: center;
@@ -125,7 +126,7 @@ a:hover {
 
 .contenair122 {
     width: 50%;
-    height: 50px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -173,7 +174,7 @@ a:hover {
     text-align: center;
     color: #FFF;
     margin-top: 40px;
-    margin-bottom: -10px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -192,16 +193,19 @@ a:hover {
     margin: 0;
     padding: 0;
     background-color: #f1f0f3;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .textqualiteformation {
-    border: 1px solid black;
-    margin-right: 70px;
+    margin-right: 60px;
+    margin-left: 110px;
+    margin-top: 110px;
+    margin-bottom: 40px;
     /* width: 60%;*/
 } 
 #image1 {
@@ -220,15 +224,80 @@ a:hover {
 }
 
 .imageclass {
-    border: 1px solid black;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .textqualite {
-    color: red;
-    font-size: 20px;
+    color: #424345;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
 }
 /*
 .imageclass2 {
     /* position: relative; 
     left: 20px;
 } */
+.optionqualite {
+   display: flex;
+   
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+#il_dev_qualifie, #il_prix_comp, #il_langue, #il_fuseau {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+   justify-content: center;
+    margin-bottom: 10px;
+}
+#il_langue, #il_fuseau {
+    margin-bottom: 20px;
+}
+
+.optionqualite img {
+    width: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d92950;
+}
+#pri_co {
+    margin-bottom: 10px;
+}
+.optionqualite h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #424345;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Début du code css pour le troisième bloc sur les partenaires */
+
+.partenaires {
+    height: auto;
+    background-color: #d92950;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partenaire_text {
+    margin-bottom: 110px;
+    margin-top: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 700;
+}
+.logo_partenaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo_partenaires img {
+    width: 100px;
+}
+.logo_partenaires div {
+    margin: 0 10px;
+}
