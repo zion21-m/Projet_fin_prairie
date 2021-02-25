@@ -386,3 +386,67 @@ a:hover {
     color: #d92950;
     border: 2px solid rgb(255, 4, 107);
 }
+
+/* Début du cinquième bloc parlant des projets 
+qui ont été dévelopés par la KDA */
+
+.projetdev {
+    background-color: #d92950;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 99.9vw;
+}
+.projetdevtext {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin: 100px 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.projetdevs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 0 50px; */
+    margin-bottom: 100px;
+}
+.imageproj img {
+    margin: 0 40px;
+    border-radius: 10px;
+    width: 400px;
+}
+.clientproj {
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clientproj a {
+    margin-left: 0px;
+    color: white;
+    margin-top: 20px;
+}
+.svgpays {
+    background-color: #FFF;
+    color: #d92950;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 22px;
+    padding: 0px 10px 3px 0px;
+}
+.svgpays img {
+    margin-right: 25px;
+    width: 25px;
+}
+.svgpays p {
+    margin-top: 3px;
+}
