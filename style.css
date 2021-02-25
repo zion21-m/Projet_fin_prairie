@@ -10,6 +10,10 @@
     font-family: "montserrat black";
     src: url(fonts/Montserrat-Black.otf);
 }
+@font-face {
+    font-family: "ubuntu mono";
+    src: url(fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
 * {
     padding: 0;
     margin: 0;
@@ -71,7 +75,7 @@ ul {
     /* padding: 10px; */
     /* background-color: aqua; */
 }
-li {
+nav li {
     font-family: "Roboto", sans-serif;
     font-size: 15.7px;
     display: inline;
@@ -384,7 +388,7 @@ a:hover {
 .demarre a:hover {
     background-color: #FFF;
     color: #d92950;
-    border: 2px solid rgb(255, 4, 107);
+    border: 3px solid rgb(255, 4, 107);
 }
 
 /* Début du cinquième bloc parlant des projets 
@@ -449,4 +453,143 @@ qui ont été dévelopés par la KDA */
 }
 .svgpays p {
     margin-top: 3px;
+}
+
+/* Début du sixième bloc sur l'expertise de la KDA */
+
+.expertisekda {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.textexpertise {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #424345;
+    font-weight: 700;
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+    /* text-align: center; */
+}
+.logoexpertise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 130px;
+    width: 99.9vw;
+}
+.hardskillsexp {
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    margin-left: 3%;
+}
+.titreskill {
+    background-color: #d92950;
+}
+.titreskill1 {
+    background-color: #331f40;
+    padding: 10px 0px;
+}
+
+.titreskill p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.softskillexp {
+    margin-right: 3%;
+    width: 37%;
+}
+.titreskill1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.premierlog {
+    background-color: #f1f0f3;
+    height: 68.95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deuxiemelog {
+    background-color: #dfdee1;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    
+}
+#deuxiemelog li {
+    font-family: "ubuntu mono", sans-serif;
+    font-weight: 400;
+    line-height: 1.55;
+    font-size: 20px;
+    color: #424345;
+    margin-top: 10px;
+}
+.logohardskill {
+    background-color: #f1f0f3;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.lignelogo {
+    display: flex;
+    flex-direction: row;
+}
+.lignelogo img {
+    width: 60px;
+    margin: 60px;
+}
+.logohardskill:nth-child(2) img {
+    margin: 40px 40px;
+}
+/* Début du 7è bloc si la personne est prête */
+.clienpret {
+    background-color: #af3953;
+    width: 99.9vw;
+    padding: 100px 0px;
+}
+.clienprettext h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin: 0 0 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.2;
+}
+.pretappel {
+    margin : 0px 0px 48px;
+    padding: 0px 15px;
+}
+.textpretappel {
+    margin: 0px 0px 48px;
+    padding: 0px 15px;
+    font-size: 20.8px;
+    font-family: "ubuntu mono", monospace;
+    color: white;
+}
+.imagepretappel {
+    display: flex;
+    flex-direction: row;
+}
+#imagepretappel1 {
+    width: 34;
+    height: 40;
+}
+#imagepretappel2 {
+    width: 100;
+    height: 50;
 }
