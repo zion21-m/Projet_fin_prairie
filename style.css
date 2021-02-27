@@ -20,7 +20,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .contenair1 {
     display: flex;
@@ -40,23 +40,25 @@ header {
     background-color: #d92950;
     position: fixed;
     z-index: 5000;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px; */
+    padding: 8px 16px;
     /* border: solid black 1px; */
 }
 .logokda img{
    width: 100px;
-   margin-left: 10px;
+   height: 58px;
+   /* margin-left: 10px; */
 }
 .logokda {
     display: flex;
     justify-content: flex-start;
-    margin-left: 25px;
+    margin-left: 21px;
     margin-top: 0;
     height: auto;
     width: 15%;
-    padding-top: 12px;
-    padding-left: 1px;
+    padding: 5px 0px;
+    /* padding-top: 12px; */
+    /* padding-left: 1px; */
     margin-bottom: 12px;
 }
 nav { 
@@ -65,12 +67,13 @@ nav {
     width: 85%;
     display: flex;
     justify-content: flex-end;
-    padding: 8px 8px;
+    margin-right: 25px;
+    /* padding: 8px 8px; */
 }
 ul {
     height: 90%;
     padding-top: 25px;
-    padding-right: 2px;
+    /* padding-right: 2px; */
     /* background-color: black; */
     /* padding: 10px; */
     /* background-color: aqua; */
@@ -90,12 +93,12 @@ li a {
     font-weight: bold;
     
 }
-a:hover {
+nav li a:hover {
     border: none;
     border-bottom: solid rgb(255, 4, 107) 3px;
 }
 #accueil {
-    border-bottom: solid rgb(255, 4, 107) 2px;
+    border-bottom: solid rgb(255, 4, 107) 3px;
 }
 .contenair12 {
     
@@ -107,15 +110,18 @@ a:hover {
     background-image: url(images/hero-background.jpg);
     background-size: cover;
     height: auto;
+    margin-top: 82px;
+    /* padding-bottom: 100px; */
 }
 .contenair121 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 100px;
     /* border: solid black 1px; */
 }
 .contenair12 .contenair121 h1 {
-    font-size: 71px;
+    font-size: 80px;
+    line-height: 1.19;
     color: #FFF;
     font-family: "montserrat black", "Montserrat", sans-serif;
     font-weight: 900;
@@ -129,10 +135,11 @@ a:hover {
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-around; */
     align-items: center;
+    justify-content: center;
     margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 
     /* border: solid black 1px;  */
 }
@@ -143,30 +150,27 @@ a:hover {
     font-weight: bold;
     background-color: #FFF;
     padding: 17px 28px;
-    margin: 0px 25px;
+    margin: 0px 10px;
     margin-bottom: 10px;
-    
     border-radius: 15px;
     border: #FFF;
     text-decoration: none;
 }
 .contenair1221 a:hover, .contenair1222 a:hover {
     background-color: rgba(255, 255, 255, 0);
-    /* border-color: rgba(255, 255, 255, 1); */
     border: solid white 2px;
     color: #FFF;
-
 }
 
 .contenair123 {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #FFF;
     margin-top: 20px;
-    width: 50%;
+    width: 55%;
     justify-content: center;
     text-align: center;
-    line-height: 25px;
+    line-height: 1.5;
     /* border: solid black 1px;  */
 }
 .contenair124 {
@@ -174,7 +178,7 @@ a:hover {
     text-align: center;
     color: #FFF;
     margin-top: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -413,23 +417,34 @@ qui ont été dévelopés par la KDA */
 .projetdevs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     /* margin: 0 50px; */
     margin-bottom: 100px;
+    /* border: 1px solid black; */
 }
+.projetdevv {
+    width: 330px;
+} 
 .imageproj img {
-    margin: 0 40px;
+    margin: 0 0px;
     border-radius: 10px;
-    width: 400px;
+    width: 330px;
+    /* border: 1px solid black; */
 }
 .clientproj {
     color: white;
-    margin-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    /* margin-left: 40px; */
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* .projetfrance1, .projetrdc2 {
+    border: 1px solid black;
+} */
 .clientproj a {
     margin-left: 0px;
     color: white;
@@ -439,17 +454,22 @@ qui ont été dévelopés par la KDA */
     background-color: #FFF;
     color: #d92950;
     font-weight: bold;
+    font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-right: 40px;
+    justify-content: space-between;
+    /* margin-right: 40px; */
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    height: 22px;
-    padding: 0px 10px 3px 0px;
+    height: 16px;
+    padding: 0px 5px 5px 0px;
+    /* border: 1px solid black; */
 }
 .svgpays img {
-    margin-right: 25px;
-    width: 25px;
+    margin-right: 15px;
+    width: 20px;
+    
+    
 }
 .svgpays p {
     margin-top: 3px;
@@ -465,7 +485,7 @@ qui ont été dévelopés par la KDA */
 }
 .textexpertise {
     font-family: "Montserrat", sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     color: #424345;
     font-weight: 700;
     margin: 100px 0px 50px 0px;
@@ -517,7 +537,7 @@ qui ont été dévelopés par la KDA */
 }
 .premierlog {
     background-color: #f1f0f3;
-    height: 68.95vh;
+    height: 62.2vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -556,7 +576,37 @@ qui ont été dévelopés par la KDA */
 .logohardskill:nth-child(2) img {
     margin: 40px 40px;
 }
-/* Début du 7è bloc si la personne est prête */
+.langage {
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    background-color: #ef4c58;
+    padding: 8px 0px;
+}
+.langage p {
+    margin-right: 5px;
+}
+.langage img {
+    margin-right: 2px;
+}
+.langage div {
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#logoreactafrica {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+/* Début du 7è bloc 
+si la personne est prête */
+
 .clienpret {
     background-color: #af3953;
     width: 99.9vw;
@@ -570,12 +620,24 @@ qui ont été dévelopés par la KDA */
     text-align: center;
     line-height: 1.2;
 }
+.imageclienpret{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .pretappel {
     margin : 0px 0px 48px;
     padding: 0px 15px;
 }
+.textpretappel1 {
+    padding: 0px 15px;
+    font-size: 20.8px;
+    font-family: "ubuntu mono", monospace;
+    color: white;
+}
 .textpretappel {
-    margin: 0px 0px 48px;
+    /* margin: 0px 0px 48px; */
+    margin-right: 50px;
     padding: 0px 15px;
     font-size: 20.8px;
     font-family: "ubuntu mono", monospace;
@@ -584,12 +646,174 @@ qui ont été dévelopés par la KDA */
 .imagepretappel {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
-#imagepretappel1 {
-    width: 34;
-    height: 40;
+.imagepretappel img {
+    width: 40px;
+    /* height: 40; */
 }
-#imagepretappel2 {
-    width: 100;
-    height: 50;
+.imagepretappel1 {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 48px;
+}
+.imagepretappel2 {
+    width: 20px;
+    margin-top: 20px;
+    
+    /* height: 50; */
+}
+#clientplanifie1 a {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #d92950;
+    padding: 20px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #af3953;
+    /* justify-content: center; */
+}
+#clientplanifie1 p{
+    text-align: center;
+    margin-top: 100px;
+}
+#clientplanifie1 a:hover {
+    border: 2px solid white;
+    background-color: #af3953;
+}
+
+/* Début du bloc parlons de l'emploi que crée KInshasa digital */
+.creonsemploi {
+    background-color: #f1f0f3;
+    width: 100vw;
+    height: auto;
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.creonsemploi1 {
+    padding: 0px 15px;
+    border: 1px solid black;
+    width: 80%;
+}
+.creonsemploi1 img {
+    width: 100%;
+}
+.creonsemploicar h3, .creonsemploi1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #424345;
+    margin-bottom: 8px;
+}
+.creonsemploi1 h1 {
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+#creonsemptextdif{
+    color: #d92950;
+}
+.creonsemploi2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.creonsemploi21 {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.creonsemploi21 img {
+    width: 50px;
+}
+.creonsemploicar {
+    background-color: #ffffff ;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 24px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.creonsemploicar p, .creonsemploi1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #424345;
+    line-height: 1.5;
+}
+/* Nouveau bloc sur Kinshasa digital dans les médias */
+.kindigmed {
+    background-color: #111111;
+    width: 99.9vw;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.kindigmedtext {
+    padding: 0px 15px;
+}
+.kindigmedtext h1 {
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.kindigmedimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kindigmedimg p {
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Nouveau bloc sur les soutiens et partenaires de la KDA */
+.soutienskda {
+    background-color: #ffffff;
+    width: 100vw;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.soutienskdatext h1 {
+    color: #424345;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.soutienskdaimg {
+    display: flex;
+    flex-direction: row;
+    
+    /* margin: 0px -15px; */
+}
+.soutienskdaimg img {
+    width: 280px;
+    border-radius: 10px;
+}
+.soutienskdaimg p {
+    /* word-break: break-word; */
+}
+.soutienskdaimg div {
+    border: 1px solid black;
+    width: 280px;
+    padding: 0px 10px;
 }
