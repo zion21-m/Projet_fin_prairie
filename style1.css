@@ -1,0 +1,98 @@
+/* 
+body {
+    width: 100vw;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+.formulaire-emploi {
+    
+    width: 100%;
+    background-color: #1d1b25;
+    padding: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.formulaire-emploi h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+.formulaire-emploi>p {
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.formulaire-emploi a {
+    color: #d92950;
+    text-decoration: none;
+    font-weight: bold;
+}
+.formulaire-emploi a:hover {
+    border-bottom: 2px solid #d92950    ;
+}
+form {
+    width: 85vw;
+    margin: auto;
+    box-sizing: border-box;
+}
+fieldset {
+    border: none;
+}
+.ligne-top {
+    display: flex;
+    justify-content: space-between;
+}
+.ligne-dessus {
+    width: 48.5%;
+}
+.ligne-dessus legend {
+    margin-bottom: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 38px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding: 6px 12px 6px 12px;
+}
+input::placeholder, textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #495057;
+    
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    border: 1px #ced4da;
+}
+textarea[name=demandearea] {
+    height: 50px;
+    width: 85vw;
+    overflow-y: scroll;
+    resize: none;
+    box-sizing: border-box;
+}
+.ligndes {
+    width: 75vw;
+}
+#envoieform a {
+    font-weight: 700;
+    background-color: #d92950;
+    padding: 15px 25px;
+    height: 58px;
+    color: white;
+    font-style: none;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+#envoieform {
+    margin-top: 30px;
+}

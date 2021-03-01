@@ -20,14 +20,15 @@
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    width: 99vw;
 }
 .contenair1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 99.9vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -36,7 +37,7 @@ header {
     flex-direction: row;
     /* justify-content: space-around; */
     height: auto;
-    width: 99.9vw;
+    width: 100%;
     background-color: #d92950;
     position: fixed;
     z-index: 5000;
@@ -191,14 +192,14 @@ nav li a:hover {
     margin-top: 10px;
 }
 
-/*ici comment le code css pour le deuxième div principal */
+/* --------------------ici comment le code css pour le deuxième div principal---------------- */
 
 .qualiteformation {
     margin: 0;
     padding: 0;
     background-color: #f1f0f3;
     height: auto;
-    width: 99.9vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -276,7 +277,7 @@ nav li a:hover {
     text-align: center;
     margin-bottom: 10px;
 }
-/* Début du code css pour le troisième bloc sur les partenaires */
+/* -------------------Début du code css pour le troisième bloc sur les partenaires------------------------------ */
 
 .partenaires {
     height: auto;
@@ -284,7 +285,7 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 99.9vw;
+    width: 100%;
     overflow-x: hidden;
 }
 .partenaire_text {
@@ -310,14 +311,14 @@ nav li a:hover {
 
 /* Fin du troisième bloc */
 
-/* Début quatrième bloc */
+/* -------------------------Début quatrième bloc------------------------------ */
 .accompprojet {
     background-color: #f1f0f3;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 99.9vw;
+    width: 100%;
     overflow-x: hidden;
 }
 .accomptext {
@@ -395,15 +396,15 @@ nav li a:hover {
     border: 3px solid rgb(255, 4, 107);
 }
 
-/* Début du cinquième bloc parlant des projets 
-qui ont été dévelopés par la KDA */
+/* ------------------------------------ Début du cinquième bloc parlant des projets 
+qui ont été dévelopés par la KDA----------------------------------------------------------- */
 
 .projetdev {
     background-color: #d92950;
     height: auto;
     display: flex;
     flex-direction: column;
-    width: 99.9vw;
+    width: 100%;
 }
 .projetdevtext {
     color: #FFF;
@@ -475,12 +476,13 @@ qui ont été dévelopés par la KDA */
     margin-top: 3px;
 }
 
-/* Début du sixième bloc sur l'expertise de la KDA */
+/* ---------------------Début du sixième bloc sur l'expertise de la KDA-------------------- */
 
 .expertisekda {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* align-items: center; */
 }
 .textexpertise {
@@ -497,7 +499,7 @@ qui ont été dévelopés par la KDA */
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 130px;
-    width: 99.9vw;
+    width: 100%;
 }
 .hardskillsexp {
     display: flex;
@@ -604,12 +606,12 @@ qui ont été dévelopés par la KDA */
     justify-content: flex-start;
     color: white;
 }
-/* Début du 7è bloc 
-si la personne est prête */
+/* ---------------------------------------Début du 7è bloc 
+si la personne est prête---------------------------------------------------- */
 
 .clienpret {
     background-color: #af3953;
-    width: 99.9vw;
+    width: 100%;
     padding: 100px 0px;
 }
 .clienprettext h1 {
@@ -687,10 +689,10 @@ si la personne est prête */
     background-color: #af3953;
 }
 
-/* Début du bloc parlons de l'emploi que crée KInshasa digital */
+/* -------------------------Début du bloc parlons de l'emploi que crée KInshasa digital----------------------------- */
 .creonsemploi {
     background-color: #f1f0f3;
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding: 100px 30px;
     display: flex;
@@ -752,10 +754,10 @@ si la personne est prête */
     color: #424345;
     line-height: 1.5;
 }
-/* Nouveau bloc sur Kinshasa digital dans les médias */
+/* -------------------------Nouveau bloc sur Kinshasa digital dans les médias--------------------- */
 .kindigmed {
     background-color: #111111;
-    width: 99.9vw;
+    width: 100%;
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
@@ -783,10 +785,10 @@ si la personne est prête */
     text-align: center;
 }
 
-/* Nouveau bloc sur les soutiens et partenaires de la KDA */
+/* -----------------------Nouveau bloc sur les soutiens et partenaires de la KDA----------------- */
 .soutienskda {
     background-color: #ffffff;
-    width: 100vw;
+    width: 100%;
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
@@ -809,11 +811,116 @@ si la personne est prête */
     width: 280px;
     border-radius: 10px;
 }
-.soutienskdaimg p {
+.soutienskdaimg div p {
     /* word-break: break-word; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: #424345;
 }
 .soutienskdaimg div {
     border: 1px solid black;
     width: 280px;
     padding: 0px 10px;
+}
+.soutienskdatweet {
+    display: flex;
+    flex-direction: row;
+}
+.soutienskdatweet div {
+    width: 290px;
+    padding: 5px;
+}
+
+/* FOOOOOOOOOOOOOOOter */
+footer {
+    padding-top: 160px;
+    padding-bottom: 96px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2d2d2d;
+    width: 100%;
+}
+footer p {
+    font-family: "Roboto",sans-serif;
+    font-size: 22.4px;
+    line-height: 1.5;
+    color: #FFFFFFDE;
+}
+footer address {
+    padding: 0px 15px;
+}
+footer address div {
+    margin-bottom: 32px;
+    font-style: normal;
+}
+.mailettel a {
+    color: #d92950;
+    text-decoration: none;
+}
+.fab {
+    color: #d92950;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.adress-droite {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.adress-droite p {
+    margin-bottom: 20px;
+}
+#adres-mail {
+    padding: 15px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    width: 420px;
+}
+#adres-mail:focus {
+    outline-color: rgba(111, 66, 193, 1);
+    outline-style: groove;
+}
+#adres-inscr {
+    padding: 17px 27px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d92950;
+    box-sizing: border-box;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#adres-inscr:hover {
+    background-color: #2d2d2d;
+    color: rgba(111, 66, 193, 0.5);
+}
+#mentionleg p{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+}
+#mentionleg {
+    margin-top: 200px;
+    width: 135px;
+}
+#mentionleg p:hover, .mailettel a:hover, .fab:hover {
+    border-bottom: 2px solid #d92950;
+}
+
+/* -----------------------------------page emploi ----------------------------*/
+
+.recrute-emploi {
+    margin-top: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
 }
