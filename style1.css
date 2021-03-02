@@ -6,6 +6,135 @@ body {
     margin: 0;
     padding: 0;
 }
+/* .container-emploi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.container-emploi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    height: auto;
+    width: 100%;
+    background-color: #d92950;
+    position: fixed;
+    z-index: 5000;
+    /* margin: 0px; */
+    padding: 8px 16px;
+    /* border: solid black 1px; */
+}
+.logokda img{
+   width: 100px;
+   height: 58px;
+   /* margin-left: 10px; */
+}
+.logokda {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 21px;
+    margin-top: 0;
+    height: auto;
+    width: 15%;
+    padding: 5px 0px;
+    /* padding-top: 12px; */
+    /* padding-left: 1px; */
+    margin-bottom: 12px;
+}
+nav { 
+    /* background-color: blue; */
+    height: 40%;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    /* padding: 8px 8px; */
+}
+ul {
+    height: 90%;
+    padding-top: 25px;
+    /* padding-right: 2px; */
+    /* background-color: black; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+nav li {
+    font-family: "Roboto", sans-serif;
+    font-size: 15.7px;
+    display: inline;
+}
+li a {
+    color: #FFF;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    margin: 0 25px;
+    font-size: 0.9919em;
+    font-weight: bold;
+    
+}
+nav li a:hover {
+    border: none;
+    border-bottom: solid rgb(255, 4, 107) 3px;
+}
+
+.recrute-emploi {
+    margin-top: 20vh;
+    padding: 100px 0px;
+}
+.recrute-emploi h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.emploi-offre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+    margin: 0px 47px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+}
+.empoi-for {
+    padding: 0px 15px;
+}
+.offreemp {
+    color: #424345;
+    background-color: #f1f0f3;
+    padding: 32px;
+    margin-bottom: 32px;
+    border-radius: 15px;
+    width: 300px;
+    border: 1px solid rgba(18, 18, 18, 0.1);
+}
+.offreemp h4 {
+    font-size: 20.8px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
+    color: #424345;
+}
+.offreemp p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.offreemp a {
+    color: #ff5098;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
 .formulaire-emploi {
     
     width: 100%;
@@ -22,11 +151,13 @@ body {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
+    color: #dbdbdc;
 }
 .formulaire-emploi>p {
     text-align: center;
     margin-bottom: 16px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .formulaire-emploi a {
     color: #d92950;
@@ -63,13 +194,13 @@ input, select, textarea {
     padding-left: 10px;
     padding: 6px 12px 6px 12px;
 }
-input::placeholder, textarea::placeholder {
+fieldset input::placeholder, textarea::placeholder {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #495057;
     
 }
-input:focus, textarea:focus, select:focus{
+fieldset input:focus, textarea:focus, select:focus{
     outline: none;
     border: 1px #ced4da;
 }
@@ -93,6 +224,99 @@ textarea[name=demandearea] {
     margin-top: 30px;
     border-radius: 15px;
 }
+#envoieform a:hover {
+    background-color: #1d1b25;
+    border: 2px solid #d92950;
+}
 #envoieform {
     margin-top: 30px;
 }
+
+/* ---------------------------------------footer -------------------
+------------------------------------------------------------------------- */
+ /* footer {
+    padding-top: 160px;
+    padding-bottom: 96px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2d2d2d;
+    width: 100%;
+}
+footer p {
+    font-family: "Roboto",sans-serif;
+    font-size: 22.4px;
+    line-height: 1.5;
+    color: #FFFFFFDE;
+}
+footer address {
+    padding: 0px 15px;
+}
+footer address div {
+    margin-bottom: 32px;
+    font-style: normal;
+}
+.mailettel a {
+    color: #d92950;
+    text-decoration: none;
+}
+.fab {
+    color: #d92950;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.adress-droite {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.adress-droite p {
+    margin-bottom: 20px;
+}
+#adres-mail {
+    padding: 17px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    width: 300px;
+}
+#adres-mail:focus {
+    outline-color: rgba(111, 66, 193, 1);
+    outline-style: groove;
+}
+#adres-inscr {
+    padding: 17px 27px;
+    width: 200px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d92950;
+    box-sizing: border-box;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#adres-inscr:hover {
+    background-color: #2d2d2d;
+    color: rgba(111, 66, 193, 0.5);
+}
+#inscriptnews {
+    border: 1px solid black;
+    width: 90%;
+    padding-top: 0px !important;
+}
+#mentionleg p{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+}
+#mentionleg {
+    margin-top: 200px;
+    width: 135px;
+}
+#mentionleg p:hover, .mailettel a:hover, .fab:hover {
+    border-bottom: 2px solid #d92950;
+} */
