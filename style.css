@@ -80,8 +80,9 @@ ul {
     /* background-color: aqua; */
 }
 nav li {
-    font-family: "Roboto", sans-serif;
-    font-size: 15.7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     display: inline;
 }
 li a {
@@ -91,7 +92,7 @@ li a {
     font-family: 'Roboto', sans-serif;
     margin: 0 25px;
     font-size: 0.9919em;
-    font-weight: bold;
+    font-weight: 600;
     
 }
 nav li a:hover {
@@ -123,10 +124,10 @@ nav .current {
     /* border: solid black 1px; */
 }
 .contenair12 .contenair121 h1 {
-    font-size: 80px;
+    font-size: 71.94px;
     line-height: 1.19;
     color: #FFF;
-    font-family: "montserrat black", "Montserrat", sans-serif;
+    font-family: 'Montserrat',"montserrat black", "Montserrat", sans-serif;
     font-weight: 900;
 }
 .jaune {
@@ -172,8 +173,8 @@ nav .current {
 }
 
 .contenair123 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     color: #FFF;
     margin-top: 20px;
     width: 55%;
@@ -375,13 +376,13 @@ nav .current {
     
 }
 .textrouge {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #d92950;
     font-weight: bold;
 }
 .engager {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #180027;
@@ -396,7 +397,7 @@ nav .current {
     border-bottom: 40px;
     color: #FFF;
     border-radius: 15px;
-    font-family: "Roboto";
+    font-family: 'Roboto',sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
@@ -418,7 +419,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
 }
 .projetdevtext {
     color: #FFF;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin: 100px 0;
     font-weight: 700;
@@ -444,7 +445,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
 }
 .clientproj {
     color: white;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     /* margin-left: 40px; */
     margin-top: 20px;
@@ -498,7 +499,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
     /* align-items: center; */
 }
 .textexpertise {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #424345;
     font-weight: 700;
@@ -528,7 +529,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
 }
 
 .titreskill p {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #ffffff;
     font-weight: 700;
@@ -541,7 +542,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
     width: 37%;
 }
 .titreskill1 p {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #ffffff;
     font-weight: 700;
@@ -645,7 +646,7 @@ si la personne est prête---------------------------------------------------- */
     padding: 100px 0px;
 }
 .clienprettext h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin: 0 0 50px;
     color: #ffffff;
@@ -709,7 +710,7 @@ si la personne est prête---------------------------------------------------- */
 }
 #clientplanifie1 a {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 20px;
     background-color: #d92950;
@@ -747,7 +748,7 @@ si la personne est prête---------------------------------------------------- */
     width: 100%;
 }
 .creonsemploicar h3, .creonsemploi1 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #424345;
@@ -785,7 +786,7 @@ si la personne est prête---------------------------------------------------- */
 }
 
 .creonsemploicar p, .creonsemploi1 p {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-bottom: 16px;
     color: #424345;
@@ -806,7 +807,7 @@ si la personne est prête---------------------------------------------------- */
     color: #ffffff;
     margin-bottom: 50px;
     font-size: 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .kindigmedimg {
@@ -835,7 +836,7 @@ si la personne est prête---------------------------------------------------- */
     color: #424345;
     margin-bottom: 50px;
     font-size: 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .soutienskdaimg {
@@ -850,7 +851,7 @@ si la personne est prête---------------------------------------------------- */
 }
 .soutienskdaimg div p {
     /* word-break: break-word; */
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 16px 0px;
     line-height: 1.5;
@@ -915,7 +916,7 @@ footer address div {
 }
 #adres-mail {
     padding: 25px 25px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
     outline: none;
@@ -928,7 +929,7 @@ footer address div {
 #adres-inscr {
     margin-top: 20px;
     padding: 17px 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: bold;
     width: 23%;
@@ -946,7 +947,7 @@ footer address div {
 }
 #mentionleg p{
     font-size: 16px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: bold;
 }
 #mentionleg {
