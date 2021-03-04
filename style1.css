@@ -6,35 +6,31 @@ body {
     margin: 0;
     padding: 0;
 }
-/* .container-emploi {
+.container-emploi {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
-.container-emploi {
+} 
+ .container-emploi {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     width: 100%;
-}
-header {
+} 
+ header {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     height: auto;
     width: 100%;
     background-color: #d92950;
     position: fixed;
     z-index: 5000;
-    /* margin: 0px; */
     padding: 8px 16px;
-    /* border: solid black 1px; */
 }
 .logokda img{
    width: 100px;
    height: 58px;
-   /* margin-left: 10px; */
 }
 .logokda {
     display: flex;
@@ -44,31 +40,23 @@ header {
     height: auto;
     width: 15%;
     padding: 5px 0px;
-    /* padding-top: 12px; */
-    /* padding-left: 1px; */
     margin-bottom: 12px;
-}
-nav { 
-    /* background-color: blue; */
+} */
+/* nav { 
     height: 40%;
     width: 85%;
     display: flex;
     justify-content: flex-end;
     margin-right: 25px;
-    /* padding: 8px 8px; */
-}
-ul {
+}  */
+/* ul {
     height: 90%;
     padding-top: 25px;
-    /* padding-right: 2px; */
-    /* background-color: black; */
-    /* padding: 10px; */
-    /* background-color: aqua; */
 }
 nav li {
     font-family: "Roboto", sans-serif;
     font-size: 15.7px;
-    display: inline;
+    display: inline-block;
 }
 li a {
     color: #FFF;
@@ -78,12 +66,11 @@ li a {
     margin: 0 25px;
     font-size: 0.9919em;
     font-weight: bold;
-    
-}
-nav li a:hover {
+} */
+/* nav li a:hover {
     border: none;
     border-bottom: solid rgb(255, 4, 107) 3px;
-}
+} */
 
 .recrute-emploi {
     margin-top: 20vh;
@@ -164,9 +151,9 @@ nav li a:hover {
     text-decoration: none;
     font-weight: bold;
 }
-.formulaire-emploi a:hover {
+/* .formulaire-emploi a:hover {
     border-bottom: 2px solid #d92950    ;
-}
+} */
 form {
     width: 85vw;
     margin: auto;
@@ -224,10 +211,10 @@ textarea[name=demandearea] {
     margin-top: 30px;
     border-radius: 15px;
 }
-#envoieform a:hover {
+/* #envoieform a:hover {
     background-color: #1d1b25;
     border: 2px solid #d92950;
-}
+} */
 #envoieform {
     margin-top: 30px;
 }

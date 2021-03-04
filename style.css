@@ -68,12 +68,18 @@ nav {
     width: 85%;
     display: flex;
     justify-content: flex-end;
-    margin-right: 25px;
+    margin-right: 20px;
+    /* border: 1px dashed yellow; */
     /* padding: 8px 8px; */
 }
 ul {
     height: 90%;
     padding-top: 25px;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 17px;
     /* padding-right: 2px; */
     /* background-color: black; */
     /* padding: 10px; */
@@ -83,25 +89,40 @@ nav li {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    display: inline;
+    display: inline-block;
+    width: 15%;
+    margin-left: 58px;
 }
 li a {
     color: #FFF;
-    margin-right: 30px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    margin: 0 25px;
     font-size: 0.9919em;
     font-weight: 600;
-    
+    height: 18.5px;
+    /* border: 1px solid green; */
 }
-nav li a:hover {
-    border: none;
-    border-bottom: solid rgb(255, 4, 107) 3px;
+.coulisse {
+    display: inline-block;
 }
 
+.coulisse::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    /* margin-left: 10%; */
+    background: rgb(255, 4, 107);
+    transition: width .3s;
+}
+.coulisse:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
 nav .current {
-    border-bottom: 3px solid rgb(255, 4, 107);
+    border-bottom: 2px solid rgb(255, 4, 107);
 }
 
 .contenair12 {
@@ -114,7 +135,7 @@ nav .current {
     background-image: url(images/hero-background.jpg);
     background-size: cover;
     height: auto;
-    margin-top: 82px;
+    margin-top: 95px;
     /* padding-bottom: 100px; */
 }
 .contenair121 {
@@ -954,9 +975,9 @@ footer address div {
     margin-top: 200px;
     width: 150px;
 }
-#mentionleg p:hover, .mailettel a:hover, .fab:hover {
+/* #mentionleg p:hover, .mailettel a:hover, .fab:hover {
     border-bottom: 2px solid #d92950;
-}
+} */
 
 /* -----------------------------------page emploi ----------------------------*/
 
