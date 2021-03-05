@@ -20,7 +20,7 @@
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: scroll;
     width: 99vw;
 }
 .contenair1 {
@@ -43,6 +43,7 @@ header {
     z-index: 5000;
     /* margin: 0px; */
     padding: 8px 16px;
+    padding-bottom: 0px;
     /* border: solid black 1px; */
 }
 .logokda img{
@@ -110,19 +111,22 @@ li a {
     content:'';
     display: block;
     width: 0;
-    height: 2px;
-    /* margin-left: 10%; */
+    height: 2.5px;
     background: rgb(255, 4, 107);
-    transition: width .3s;
+    transition: width .4s;
 }
 .coulisse:hover::after {
     width: 100%;
-    //transition: width .3s;
+}
+
+.coulisse1::after {
+    background: #d92950;
+    margin-top: -5px;
 }
 
 
 nav .current {
-    border-bottom: 2px solid rgb(255, 4, 107);
+    border-bottom: 3px solid rgb(255, 4, 107);
 }
 
 .contenair12 {
@@ -135,7 +139,7 @@ nav .current {
     background-image: url(images/hero-background.jpg);
     background-size: cover;
     height: auto;
-    margin-top: 95px;
+    margin-top: 88px;
     /* padding-bottom: 100px; */
 }
 .contenair121 {
@@ -297,8 +301,22 @@ nav .current {
     margin-bottom: 20px;
     border-bottom: 2px solid #d92950;
 }
+#il_langue img {
+    
+    padding: 10px 0px;
+    padding-bottom: 30px;
+   
+}
+#il_prix_comp, #il_fuseau {
+    margin-bottom: 25px;
+}
 #pri_co {
     margin-bottom: 10px;
+    width: 30px;
+}
+#il_prix_comp img {
+    width: 40px;
+    margin-top: 15px;
 }
 .optionqualite h5 {
     font-family: "Montserrat", sans-serif;
@@ -317,6 +335,7 @@ nav .current {
     align-items: center;
     width: 100%;
     overflow-x: hidden;
+    padding: 35px 0px;
 }
 .partenaire_text {
     margin-bottom: 110px;
@@ -329,14 +348,15 @@ nav .current {
 .logo_partenaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 100px;
 }
 .logo_partenaires img {
-    width: 100px;
+    width: 120px;
 }
 .logo_partenaires div {
-    margin: 0 10px;
+    margin: 0 40px;
 }
 
 /* Fin du troisième bloc */
@@ -587,8 +607,7 @@ qui ont été dévelopés par la KDA--------------------------------------------
     padding: 50px;
     border-radius: 10px;
     margin: 20px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;   
 }
 #deuxiemelog li {
     font-family: "ubuntu mono", sans-serif;
@@ -677,13 +696,11 @@ si la personne est prête---------------------------------------------------- */
 .imageclienpret{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
+    padding-left: 30px;
 }
 .pretappel {
     margin : 0px 0px 48px;
     padding: 0px 15px;
-    
 }
 .textpretappel1 {
     padding: 0px 15px;
@@ -699,6 +716,7 @@ si la personne est prête---------------------------------------------------- */
     font-size: 20.8px;
     font-family: "ubuntu mono", monospace;
     color: white;
+    font-weight: 700;
 }
 .textpretapp p {
     position: relative;
@@ -711,23 +729,60 @@ si la personne est prête---------------------------------------------------- */
     margin-bottom: 20px;
 }
 .imagepretappel img {
-    width: 40px;
+    width: 34px;
     /* height: 40; */
 }
+.imagepretappela {
+    padding-left: 90px;
+}
+.imagepretappelb {
+    padding-left: 95px;
+}
+
+.imagepretappelc {
+    padding-left: 60px;
+}
+.imagepretappeld {
+    padding-left: 30px;
+}
+
 .imagepretappel1 {
     border: 1px solid #ffffff;
-    padding: 10px;
+    padding: 12px 15px;
     border-radius: 10px;
-    height: 48px;
+    box-sizing: border-box;
+    /* height: 48px; */
 }
 .imagepretappel2 {
     width: 8vw;
     margin-top: 20px;
     padding-left: 30px;
-    /* height: 50; */
 }
 .imagepretappel2 img {
-    width: 3vw;
+    width: 2.5vw;
+}
+.imagepretappelb img {
+    padding: 10px 3px;
+}
+.imagepretappeld img {
+    padding: 5px 5px;
+}
+
+.pretappel {
+    margin-left: 30px;
+}
+.pretpropositon {
+    margin-right: 10px;
+    padding-right: 20px;
+}
+.imagepretappel2 {
+    margin-top: 10px;
+}
+.imagepretappela .imagepretappel2, .imagepretappelc .imagepretappel2 {
+    margin-top: 20px;
+}
+.pretonboading {
+    margin-left: 50px;
 }
 #clientplanifie1 a {
     color: #ffffff;
@@ -885,10 +940,12 @@ si la personne est prête---------------------------------------------------- */
 .soutienskdatweet {
     display: flex;
     flex-direction: row;
+    padding-right: 20px;
 }
 .soutienskdatweet div {
-    width: 290px;
-    padding: 5px;
+    width: 280px;
+    padding: 0px 10px;
+    /* padding-right: 17px; */
 }
 
 /* FOOOOOOOOOOOOOOOter */
@@ -924,6 +981,7 @@ footer address div {
     color: #d92950;
     font-size: 30px;
     margin-right: 20px;
+    /* display: inline-block; */
 }
 .adress-droite {
     display: flex;
@@ -975,9 +1033,10 @@ footer address div {
     margin-top: 200px;
     width: 150px;
 }
-/* #mentionleg p:hover, .mailettel a:hover, .fab:hover {
-    border-bottom: 2px solid #d92950;
-} */
+#mentionleg::after {
+    margin-top: -13px;
+}
+
 
 /* -----------------------------------page emploi ----------------------------*/
 
