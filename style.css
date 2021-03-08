@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: "Roboto";
     src: url(/fonts/Roboto/Roboto-Black.ttf);
-}
-@font-face {
+} */
+/* @font-face {
     font-family: "Montserrat";
     src: url(/fonts/Montserrat/Montserrat-Black.ttf);
-}
+} */
 @font-face {
     font-family: "montserrat black";
     src: url(fonts/Montserrat-Black.otf);
@@ -152,8 +152,23 @@ nav .current {
     font-size: 71.94px;
     line-height: 1.19;
     color: #FFF;
-    font-family: 'Montserrat',"montserrat black", "Montserrat", sans-serif;
+    font-family: 'Montserrat',"montserrat black", sans-serif;
     font-weight: 900;
+    animation-name: h1bloc1;
+    animation-duration: .8s;
+
+    /* opacity: 0; */
+    /* transform: translateY(20px); */
+}
+@keyframes h1bloc1 {
+    from {
+        opacity: 0;
+        transform: translateY(10vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .jaune {
     color: #ffe64d;
@@ -175,7 +190,21 @@ nav .current {
 }
 .contenair1221, .contenair1222 {
     box-sizing: border-box;
+    animation-name: boutonbloc1;
+    animation-duration: 1.2s;
     /* height: 8vh; */
+}
+@keyframes boutonbloc1 {
+    0% {opacity: 0;
+        transform: translateY(5vh);
+    }
+    60% {opacity: 0;
+        transform: translateY(2vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .contenair1221 a , .contenair1222 a {
     color: #d92950;
@@ -200,13 +229,28 @@ nav .current {
 .contenair123 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: #FFF;
     margin-top: 20px;
     width: 55%;
     justify-content: center;
     text-align: center;
     line-height: 1.5;
+    animation-name: pbloc1;
+    animation-duration: 1.5s;
     /* border: solid black 1px;  */
+}
+@keyframes pbloc1 {
+    0% {opacity: 0;
+        transform: translateY(5vh);
+    }
+    60% {opacity: 0;
+        transform: translateY(2vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .contenair124 {
     width: 100vw;
@@ -218,9 +262,22 @@ nav .current {
     flex-direction: row;
     justify-content: space-around;
     opacity: 0.5;
+    animation-name: imbloc1;
+    animation-duration: 2s;
     /* border: solid black 1px; */
 }
-
+@keyframes imbloc1 {
+    0% {opacity: 0;
+        transform: translateY(5vh);
+    }
+    60% {opacity: 0;
+        transform: translateY(2vh);
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+}
 .contenair124 img {
     width: 50px;
     margin-top: 10px;
@@ -264,6 +321,22 @@ nav .current {
 
 .imageclass {
     margin-top: 100px;
+    animation-name: bloc2image;
+    animation-duration: 1.5s;
+}
+@keyframes bloc2image {
+    0% {
+        opacity: 0;
+        transform: translateY(40vh);
+    }
+    65% {
+        opacity: 0;
+        transform: translateY(20vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .textqualite {
     color: #424345;
@@ -348,16 +421,80 @@ nav .current {
 .logo_partenaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 100px;
+    width: 80vw;
+    overflow-x: hidden;
 }
 .logo_partenaires img {
     width: 120px;
 }
 .logo_partenaires div {
-    margin: 0 40px;
+    margin: 0 45px;
+    animation-name: bloc3image;
+    animation-iteration-count: infinite;
+    animation-duration: 48s;
+    
 }
+
+@keyframes bloc3image {
+    0%,6.25% {
+        transform: translateX(0);
+    }
+    8.25%,14.5% {
+        transform: translateX(-15vw);
+    }
+    16.5%,22.75% {
+        transform: translateX(-30vw);
+        opacity: 1;
+    }
+  
+    24.75%,31% {
+        transform: translateX(-45vw);
+        opacity: 1;
+    }
+   
+    33%,39.25% {
+        transform: translateX(-60vw);
+    }
+    41.25%, 47.50% {
+        transform: translateX(-75vw);
+    }
+   
+    49.50%,55.75% {
+        transform: translateX(-90vw);
+    }
+    
+    57.75%,64% {
+        transform: translateX(-105vw);
+    }
+  
+    66%,72.25% {
+        transform: translateX(-120vw);
+    }
+    
+    74.25%,80.50% {
+        transform: translateX(-135vw);
+    }
+    82.50%,88.75% {
+        transform: translateX(-150vw);
+    }
+    90.75%,95% {
+        transform: translateX(-165vw);
+        opacity: 1;
+    }
+    97%{
+        opacity: 0;
+        transform: translateX(-170vw);
+    }
+    97.1%,100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
 
 /* Fin du troisième bloc */
 
@@ -720,7 +857,7 @@ si la personne est prête---------------------------------------------------- */
 }
 .textpretapp p {
     position: relative;
-    left: -30;
+    left: -30px;
 }
 .imagepretappel {
     display: flex;
